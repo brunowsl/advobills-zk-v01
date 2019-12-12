@@ -1,0 +1,9 @@
+<?page title="" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<borderlayout
+		viewModel="@id('vm') @init('br.com.application.advobillszkv01.pages.LoginVM')"
+		onOK="@command('login')">
+		<center style="border: none"></center>
+		<south style="border: none"></south>
+	</borderlayout>
+</zk>
