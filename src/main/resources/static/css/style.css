@@ -1,7 +1,13 @@
+@import
+	url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #e1efff
 }
 
 .z-north-body {
@@ -9,7 +15,62 @@ body {
 	padding: 0;
 }
 
+.z-center-body {
+	margin: 0;
+	padding: 0;
+}
+
+.z-south-body {
+	margin: 0;
+	padding: 0;
+}
+
 .z-borderlayout {
 	margin: 0;
 	padding: 0;
+}
+
+.z-label {
+	font-family: 'Raleway', sans-serif;
+}
+
+.white-label {
+	color: white;
+}
+
+.z-button {
+	font-family: 'Raleway', sans-serif;
+}
+
+.back-color {
+	background-color: #116466
+}
+
+.north {
+	height: 330px;
+}
+
+.box-login {
+	width: 500px;
+	height: 300px;
+	border: 1px outset #ccc;
+	box-shadow: 2px 2px 1px #ccc;
+	margin-top: 10%
+}
+
+.box-login-tab {
+	border: none;
+	float: left;
+}
+
+.navBtn {
+	background-color: #335252;
+	color: #116466;
+	width: 100%;
+	border-radius: 0;
+	border: none;
+	text-align: justify;
+	font-size: 12pt;
+	width: 100%;
+	height: 30px;
 }
