@@ -10,23 +10,23 @@ body {
 	padding: 0;
 }
 
-.z-north-body {
-	margin: 0;
-	padding: 0;
+.borderlayout {
+	width: 230px !important;
 }
 
-.z-center-body {
-	margin: 0;
-	padding: 0;
-}
-
-.z-south-body {
-	margin: 0;
-	padding: 0;
+.northborder {
+	width: 230px !important;
 }
 
 .z-borderlayout {
-	margin: 0;
+	padding: 0;
+}
+
+.z-west-body {
+	padding: 0;
+}
+
+.z-north-body {
 	padding: 0;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .back-color {
-	background-color: #116466
+	background-color: #2C3531
 }
 
 .north {
@@ -63,14 +63,35 @@ body {
 	float: left;
 }
 
+.fas {
+	float: right;
+}
+
+.far {
+	float: right;
+}
+
 .navBtn {
-	background-color: #335252;
-	color: #116466;
-	width: 100%;
+	background-color: #2C3531;
+	color: #FFFFFF;
 	border-radius: 0;
 	border: none;
 	text-align: justify;
 	font-size: 12pt;
 	width: 100%;
 	height: 30px;
+}
+
+.navBtn:hover {
+	background-color: #37403c;
+}
+
+.navBtn:focus {
+	background-color: #38413D;
+	border: none;
+}
+
+.navBtn:active {
+	background-color: #38413D;
+	border: none;
 }
